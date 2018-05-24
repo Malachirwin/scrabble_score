@@ -1,13 +1,13 @@
 require_relative 'scrabble_module'
 
-class Word
+class Sentence
   include Scrabble
 
-  def initialize(word)
-    @word = word
+  def initialize(sentence)
+    @sentence = sentence
   end
 
   def to_s
-    @word
+    @sentence
   end
 end
